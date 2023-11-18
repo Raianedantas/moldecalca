@@ -1,0 +1,19 @@
+   #campo{
+		   outline: none;
+		       appearance: none;
+	border: .2em solid #DCDCDC;
+	background: #DCDCDC;
+	padding: .85em 1.5em;
+	color: black;
+	border-radius: 0.5em;
+	}
+	
+.form{
+text-align: center;
+}
+
+.texto{
+    padding-left: 50px;
+    
+}
+
