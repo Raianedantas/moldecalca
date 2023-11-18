@@ -17,3 +17,11 @@ text-align: center;
     
 }
 
+#botao{
+	outline: none;
+	border: .2em solid #DCDCDC;
+	background: #DCDCDC;
+	padding: .85em 1.5em;
+	color: black;
+	border-radius: 0.5em;
+}
