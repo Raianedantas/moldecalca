@@ -109,7 +109,7 @@ function evalInput(strInput) {
 
 
 
-//função para o separação do quadril
+//função para o quadril
 		function evalInput6(strInput) {
     // Valor fixo
     var valorFixo = "quadril=";
@@ -128,4 +128,20 @@ function evalInput(strInput) {
     }
 
 
+function enviarValores() {
+	    var alturaGanchoValue = document.getElementsByName('inputField')[0].value;
+            var alturaQuadrilValue = document.getElementsByName('inputField1')[0].value;
+            var cinturaValue = document.getElementsByName('inputField2')[0].value;
+            var comprimentodoJoelhoValue = document.getElementsByName('inputField3')[0].value;
+            var comprimentoTotalValue = document.getElementsByName('inputField4')[0].value;
+            var larguradaBarraValue = document.getElementsByName('inputField5')[0].value;
+            var quadrilValue = document.getElementsByName('inputField6')[0].value;
 
+            evalInput(alturaGanchoValue);
+            evalInput1(alturaQuadrilValue);
+            evalInput2(cinturaValue);
+            evalInput3(comprimentodoJoelhoValue);
+	    evalInput4(comprimentoTotalValue);
+            evalInput5(larguradaBarraValue);
+	evalInput6(quadrilValue);
+		    }
